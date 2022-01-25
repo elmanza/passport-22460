@@ -1,0 +1,7 @@
+.contenedor_app{
+    max-width: 700px;
+    width: 100%;
+    margin: 90px auto 0px;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgb(0 0 0 / 45%);
+    padding: 50px;
+}
