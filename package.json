@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon index-jwt.js",
+    "start": "node index-jwt.js"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +16,10 @@
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
     "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
     "passport": "^0.5.2",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

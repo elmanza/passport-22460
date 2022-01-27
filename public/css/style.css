@@ -5,3 +5,17 @@
     box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgb(0 0 0 / 45%);
     padding: 50px;
 }
+.button_cesar {
+    margin: 4%;
+    padding: 0.7rem;
+    font-weight: bold;
+    font-family: "quicksand", sans-serif;
+    border: none;
+    color: #ffffff;
+    background-color: #11373c;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 35%;
+  }
+  

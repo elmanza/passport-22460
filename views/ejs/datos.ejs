@@ -1,3 +1,12 @@
-<h1>Bienvenido <%= usuario.username %> , ud ya esta loggueado. Lo felicito!</h1>
-<p>Has entrado <%= contador %> veces</p>
+<div>
+    <div style="max-width: 400px; width: 100%; height: auto;">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="<%= usuario.photos[0].value %>" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text"><%= usuario.description %> ---> <%= contador %></p>
+            </div>
+          </div>
+    </div>
+</div>
+
 <a href="/logout">Cerrar sesión</a>
